@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite1">
+<listeners>
+    <listener class-name="lovelyPrasadOrg.testComponent.Listener"></listener>
+</listeners>
+    <test name="Error validation">
+        <classes>
+            <class name="lovelyPrasadOrg.tests.ErrorValidationTest"/>
+        </classes>
+    </test>
+    <test name="Shopping">
+        <classes>
+            <class name="lovelyPrasadOrg.tests.LetsShopTest"/>
+        </classes>
+    </test>
+</suite>
