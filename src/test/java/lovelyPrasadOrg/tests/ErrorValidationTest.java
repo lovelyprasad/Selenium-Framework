@@ -12,6 +12,7 @@ import java.io.IOException;
 public class ErrorValidationTest extends BaseTest {
     LoginPage loginPage;
     @BeforeClass
+    //this is to check push
     public void setup() throws IOException {
         launchApp();
         loginPage = new LoginPage(wd);
